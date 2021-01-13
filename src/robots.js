@@ -2,14 +2,14 @@ export const robots =  [
     {
         id: 1,
         name: 'Chris Convenant',
-        username: 'Baines',
-        email: 'Covenant@gmail.com'
+        username: 'QBC',
+        email: 'QBC@gmail.com'
     },
     {
         id: 2,
         name: 'Uweh George',
         username: 'George',
-        email: 'GAHMNile@gmail.com'
+        email: 'GAMHNile@gmail.com'
     },
     {
         id: 3,
@@ -19,9 +19,9 @@ export const robots =  [
     },
     {
         id: 4,
-        name: 'David Umokpokpokpo',
-        username: 'Umokpokpokpo',
-        email: 'Umokpokpokpo@gmail.com'
+        name: 'Chikaodili',
+        username: 'Harrison',
+        email: 'Ofoje@gmail.com'
     },
     {
         id: 5,
@@ -37,7 +37,7 @@ export const robots =  [
     },
     {
         id: 7,
-        name: 'Mmenim David',
+        name: 'Menim David',
         username: 'Uwakmfon',
         email: 'General@gmail.com'
     },
