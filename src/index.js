@@ -1,14 +1,16 @@
 import * as serviceWorker from "./serviceWorker";
-import { Provider, connect } from "react-redux";
-import { createStore } from "redux";
+import { Provider } from "react-redux";
+import { applyMiddleware, createStore } from "redux";
 import App from "./Containers/App";
 import ReactDOM from "react-dom";
 import React from "react";
 import "./index.css";
 import "tachyons";
 import { searchRobots } from "./reducer";
+import { createLogger } from "redux-logger";
 
-const store = createStore(searchRobots);
+const logger = createLogger();
+const store = createStore(searchRobots, applyMiddleware(logger));
 
 ReactDOM.render(
   <Provider store={store}>
