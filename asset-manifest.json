@@ -1,26 +1,24 @@
 {
   "files": {
-    "main.css": "/robofriends/static/css/main.2d2d64fa.chunk.css",
-    "main.js": "/robofriends/static/js/main.cf23e6d3.chunk.js",
-    "main.js.map": "/robofriends/static/js/main.cf23e6d3.chunk.js.map",
-    "runtime-main.js": "/robofriends/static/js/runtime-main.db3a75f1.js",
-    "runtime-main.js.map": "/robofriends/static/js/runtime-main.db3a75f1.js.map",
-    "static/css/2.036b41f9.chunk.css": "/robofriends/static/css/2.036b41f9.chunk.css",
-    "static/js/2.723846ec.chunk.js": "/robofriends/static/js/2.723846ec.chunk.js",
-    "static/js/2.723846ec.chunk.js.map": "/robofriends/static/js/2.723846ec.chunk.js.map",
+    "main.css": "/robofriends/static/css/main.688a2437.chunk.css",
+    "main.js": "/robofriends/static/js/main.30520a46.chunk.js",
+    "main.js.map": "/robofriends/static/js/main.30520a46.chunk.js.map",
+    "runtime-main.js": "/robofriends/static/js/runtime-main.d292be20.js",
+    "runtime-main.js.map": "/robofriends/static/js/runtime-main.d292be20.js.map",
+    "static/css/2.4a95064d.chunk.css": "/robofriends/static/css/2.4a95064d.chunk.css",
+    "static/js/2.8a335d14.chunk.js": "/robofriends/static/js/2.8a335d14.chunk.js",
+    "static/js/2.8a335d14.chunk.js.map": "/robofriends/static/js/2.8a335d14.chunk.js.map",
     "index.html": "/robofriends/index.html",
-    "precache-manifest.9a8f3909601d8980b6838cb89eda2f3b.js": "/robofriends/precache-manifest.9a8f3909601d8980b6838cb89eda2f3b.js",
-    "service-worker.js": "/robofriends/service-worker.js",
-    "static/css/2.036b41f9.chunk.css.map": "/robofriends/static/css/2.036b41f9.chunk.css.map",
-    "static/css/main.2d2d64fa.chunk.css.map": "/robofriends/static/css/main.2d2d64fa.chunk.css.map",
-    "static/js/2.723846ec.chunk.js.LICENSE.txt": "/robofriends/static/js/2.723846ec.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/robofriends/static/media/Doctor Glitch.c29724db.woff"
+    "static/css/2.4a95064d.chunk.css.map": "/robofriends/static/css/2.4a95064d.chunk.css.map",
+    "static/css/main.688a2437.chunk.css.map": "/robofriends/static/css/main.688a2437.chunk.css.map",
+    "static/js/2.8a335d14.chunk.js.LICENSE.txt": "/robofriends/static/js/2.8a335d14.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/robofriends/static/media/Doctor Glitch.4f3c397d.woff"
   },
   "entrypoints": [
-    "static/js/runtime-main.db3a75f1.js",
-    "static/css/2.036b41f9.chunk.css",
-    "static/js/2.723846ec.chunk.js",
-    "static/css/main.2d2d64fa.chunk.css",
-    "static/js/main.cf23e6d3.chunk.js"
+    "static/js/runtime-main.d292be20.js",
+    "static/css/2.4a95064d.chunk.css",
+    "static/js/2.8a335d14.chunk.js",
+    "static/css/main.688a2437.chunk.css",
+    "static/js/main.30520a46.chunk.js"
   ]
 }
