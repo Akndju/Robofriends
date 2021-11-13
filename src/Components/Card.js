@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 const card = (props) => {
   return (
@@ -7,7 +7,7 @@ const card = (props) => {
         width="150"
         height="150"
         alt="Robots"
-        src={`https://robohash.org/${props.id}`}
+        src={`https://robohash.org/${props.id}?size=200x200`}
       />
       <div>
         <h3>{props.name}</h3>
