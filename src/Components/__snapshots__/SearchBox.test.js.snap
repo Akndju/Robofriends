@@ -9,6 +9,7 @@ exports[`expect to render SearchBox Component 1`] = `
   }
 >
   <input
+    aria-label="Search Robots"
     className="pa2 ba b--black bg-white br3 tc bw0.8"
     placeholder="Search Robot"
     type="search"
