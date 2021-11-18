@@ -7,7 +7,7 @@ exports[`expect to render Card Component 1`] = `
   <img
     alt="Robots"
     height="150"
-    src="https://robohash.org/undefined?size=300x300"
+    src="https://robohash.org/undefined?size=200x200"
     width="150"
   />
   <div>

@@ -7,7 +7,7 @@ const card = ({ name, id, email }) => {
         width="150"
         height="150"
         alt="Robots"
-        src={`https://robohash.org/${id}?size=300x300`}
+        src={`https://robohash.org/${id}?size=200x200`}
       />
       <div>
         <h1>{name}</h1>
