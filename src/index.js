@@ -7,7 +7,7 @@ import ReactDOM from "react-dom";
 import React from "react";
 import "./index.css";
 import "tachyons";
-import { searchRobots, requestRobots } from "./reducer";
+import { searchRobots, requestRobots } from "./reducers";
 import { createLogger } from "redux-logger";
 
 const rootReducer = combineReducers({ searchRobots, requestRobots });
