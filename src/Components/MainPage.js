@@ -3,8 +3,8 @@ import CardList from "../Components/CardList";
 import SearchBox from "../Components/SearchBox";
 import Scroll from "../Components/Scroll";
 import ErrorBoundary from "../Components/ErrorBoundary";
-import "./MainPage.css";
 import Header from "../Components/Header";
+import "./MainPage.css";
 
 class MainPage extends Component {
   componentDidMount() {
@@ -20,7 +20,7 @@ class MainPage extends Component {
   };
 
   render() {
-    const { onSearchChange, robots, isPending } = this.props;
+    const { onSearchChange, isPending } = this.props;
 
     if (isPending) {
       return <h1>Please Wait...</h1>;
