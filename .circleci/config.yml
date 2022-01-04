@@ -1,20 +1,33 @@
-version:
+version: 2
 jobs:
+  build:
+    docker:
+      - image: circleci/node:16.13.1
+    steps:
+      - checkout
+      - run: echo "npm installing"
+      - run: npm install
+      - run: CI=true npm run build
+  test:
+    docker:
+      - image: circleci/node:16.13.1
+    steps:
+      - checkout
+      - run: echo "Testing"
+      - run: npm install
+      - run: npm test
   sola:
     docker:
-      - image: circleci/ruby:2.5.1
+      - image: circleci/node:16.13.1
     steps:
       - checkout
-      - run: echo "A first hello"
-  david:
-    docker:
-      - image: circleci/ruby:2.5.1
-    steps:
-      - checkout
-      - run: echo "Double Trouble"
-  workflows:
-    version: 2
-    sola_david:
-      jobs:
-        - david
-        - sally
+      - run: echo "Solaaaaa"
+workflows:
+  version: 2
+  build_test_and_lint:
+    jobs:
+      - build
+      - sola
+      - test:
+          requires:
+            - hithere
